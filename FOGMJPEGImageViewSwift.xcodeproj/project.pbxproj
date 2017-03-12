@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		882B1EFB1E7539A300A804A9 /* FOGMJPEGImageViewSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 882B1EF91E7539A300A804A9 /* FOGMJPEGImageViewSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		882B1F041E7539B400A804A9 /* FOGJPEGImageMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882B1F011E7539B400A804A9 /* FOGJPEGImageMarker.swift */; };
+		882B1F051E7539B400A804A9 /* FOGMJPEGDataReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882B1F021E7539B400A804A9 /* FOGMJPEGDataReader.swift */; };
+		882B1F061E7539B400A804A9 /* FOGMJPEGImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882B1F031E7539B400A804A9 /* FOGMJPEGImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		882B1EF61E7539A300A804A9 /* FOGMJPEGImageViewSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FOGMJPEGImageViewSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		882B1EF91E7539A300A804A9 /* FOGMJPEGImageViewSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FOGMJPEGImageViewSwift.h; sourceTree = "<group>"; };
 		882B1EFA1E7539A300A804A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		882B1F011E7539B400A804A9 /* FOGJPEGImageMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FOGJPEGImageMarker.swift; sourceTree = "<group>"; };
+		882B1F021E7539B400A804A9 /* FOGMJPEGDataReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FOGMJPEGDataReader.swift; sourceTree = "<group>"; };
+		882B1F031E7539B400A804A9 /* FOGMJPEGImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FOGMJPEGImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,9 @@
 			isa = PBXGroup;
 			children = (
 				882B1EF91E7539A300A804A9 /* FOGMJPEGImageViewSwift.h */,
+				882B1F011E7539B400A804A9 /* FOGJPEGImageMarker.swift */,
+				882B1F021E7539B400A804A9 /* FOGMJPEGDataReader.swift */,
+				882B1F031E7539B400A804A9 /* FOGMJPEGImageView.swift */,
 				882B1EFA1E7539A300A804A9 /* Info.plist */,
 			);
 			path = FOGMJPEGImageViewSwift;
@@ -96,6 +105,7 @@
 					882B1EF51E7539A300A804A9 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = CNVBGR2V76;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,6 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				882B1F041E7539B400A804A9 /* FOGJPEGImageMarker.swift in Sources */,
+				882B1F051E7539B400A804A9 /* FOGMJPEGDataReader.swift in Sources */,
+				882B1F061E7539B400A804A9 /* FOGMJPEGImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +253,7 @@
 		882B1EFF1E7539A300A804A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = CNVBGR2V76;
@@ -252,6 +266,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoxiao.FOGMJPEGImageViewSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -259,6 +274,7 @@
 		882B1F001E7539A300A804A9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = CNVBGR2V76;
