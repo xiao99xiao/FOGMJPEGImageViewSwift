@@ -8,7 +8,6 @@
 
 import UIKit
 
-//  Converted with Swiftify v1.0.6276 - https://objectivec2swift.com/
 protocol FOGMJPEGDataReaderDelegate: class {
     /**
      Tells the delegate that the data reader received an image, this method is invoked on the main thread.
@@ -45,7 +44,6 @@ class FOGMJPEGDataReader: NSObject, URLSessionDataDelegate {
         self.urlSession = URLSession(configuration: configuration, delegate: self, delegateQueue: self.processingQueue)
     }
     
-    //  Converted with Swiftify v1.0.6276 - https://objectivec2swift.com/
     /**
      Begins reading MJPEG data from the given URL.
      

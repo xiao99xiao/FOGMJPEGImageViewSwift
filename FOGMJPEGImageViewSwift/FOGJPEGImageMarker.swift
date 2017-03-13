@@ -7,7 +7,6 @@
 //
 
 import Foundation
-//  Converted with Swiftify v1.0.6276 - https://objectivec2swift.com/
 class FOGJPEGImageMarker: NSObject {
     /**
      `NSData` representation of the bytes that denote the start of JPEG encoded image.
